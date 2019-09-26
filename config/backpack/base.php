@@ -12,17 +12,17 @@ return [
     */
 
     // Project name. Shown in the breadcrumbs and a few other places.
-    'project_name' => 'eStarter',
+    'project_name' => 'Abaglobal',
 
     // Menu logos
-    'logo_lg'   => '<b>e</b>Starter',
-    'logo_mini' => '<b>e</b>S',
+    'logo_lg'   => '<b>A</b>baglobal',
+    'logo_mini' => '<b>A</b>G',
 
     // Developer or company name. Shown in footer.
-    'developer_name' => 'updivision',
+    'developer_name' => 'iamdevmaniac',
 
     // Developer website. Link in footer.
-    'developer_link' => 'http://updivision.com',
+    'developer_link' => 'http://twitter.com/@iamdevmaniac',
 
     // Show powered by Laravel Backpack in the footer?
     'show_powered_by' => true,

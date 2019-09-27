@@ -8592,6 +8592,7 @@ a.bundle-btn {
     text-align: center;
     width: 40px;
     z-index: 9999;
+    border: 1px solid white;
 }
 #scrollUp:hover {
     background: #333 none repeat scroll 0 0;
@@ -9596,4 +9597,20 @@ input.cart-plus-minus-box {
 }
 .modal-content .close:hover {
     color: #050035;
+}
+footer{
+    color:white!important;
+}
+footer a, footer p{
+    color:white!important;
+}
+footer a:hover{
+    color: lightgrey;
+    text-decoration: underline;
+}
+.cop-y{
+    background: #21d3a9;
+}
+.cop-y p{
+    text-shadow:2px 2px 5px black;
 }

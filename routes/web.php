@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return view('partials.radiance.pages.product-details');
+    return view('pages.register');
 });
 
 // Admin Interface

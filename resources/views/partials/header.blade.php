@@ -74,15 +74,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="blog.html">blog</a>
-                                        <ul class="single-dropdown">
-                                            <li><a href="blog.html">blog 3 colunm</a></li>
-                                            <li><a href="blog-2-col.html">blog 2 colunm</a></li>
-                                            <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
-                                            <li><a href="blog-details-sidebar.html">blog details 2</a></li>
-                                        </ul>
-                                    </li>
+                                   
                                     <li><a href="contact.html">contact</a></li>
                                 </ul>
                             </nav>

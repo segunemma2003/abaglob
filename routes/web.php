@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return view('pages.register');
+    return view('pages.checkout');
 });
 
 // Admin Interface

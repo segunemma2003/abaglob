@@ -519,7 +519,7 @@
 }
 .cart-btn {
     border: 1px solid #666666;
-    color: #070b21;
+    color: white;
     display: inline-block;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -6403,9 +6403,16 @@ a.icon-cart-furniture.food-cart span {
     top: 460px;
     z-index: 999;
 }
+.abgc{
+   color: #1d9c9b!important;  
+}
+.abghov:hover{
+    background: #050035!important;
+}
 .abgbc{
     background: #1d9c9b!important;
 }
+
 
 .btn-hover-black::before {
     background: #333 none repeat scroll 0 0;
@@ -6752,7 +6759,7 @@ thead {
     width: inherit;
 }
 .coupon-all input.button:hover {
-    background-color: #050035;
+    background-color: #1d9c9b;
     border: medium none;
     color: #fff;
 }

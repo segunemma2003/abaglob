@@ -133,8 +133,8 @@
                                     </div>
                                 </li>
                                 <li class="cart-btn-wrapper">
-                                    <a class="cart-btn btn-hover" href="#">view cart</a>
-                                    <a class="cart-btn btn-hover" href="#">checkout</a>
+                                    <a class="cart-btn btn-hover abgbc abghov" href="#">view cart</a>
+                                    <a class="cart-btn btn-hover abgbc abghov" href="#">checkout</a>
                                 </li>
                             </ul>
                         </div>

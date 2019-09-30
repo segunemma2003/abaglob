@@ -89,7 +89,7 @@
                                 </li>
                                 <li class="cart-btn-wrapper">
                                     <a class="cart-btn btn-hover abgbc abghov" href="{{URL('/#')}}">view cart</a>
-                                    <a class="cart-btn btn-hover abgbc abghov" href="{{URL('/#')}}">checkout</a>
+                                    <a class="cart-btn btn-hover abgbc abghov" href="{{URL('/checkout')}}">checkout</a>
                                 </li>
                             </ul>
                         </div>

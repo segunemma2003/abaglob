@@ -12,65 +12,42 @@
                     <nav>
                         <ul>
                             <li><a href="#">Home</a>
-                                <ul class="single-dropdown">
-                                    <li><a href="index.html">Fashion</a></li>
-                                    <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                                    <li><a href="index-fruits.html">fruits</a></li>
-                                    <li><a href="index-book.html">book</a></li>
-                                    <li><a href="index-electronics.html">electronics</a></li>
-                                    <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                                    <li><a href="index-food.html">food & drink</a></li>
-                                    <li><a href="index-furniture.html">furniture</a></li>
-                                    <li><a href="index-handicraft.html">handicraft</a></li>
-                                    <li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
-                                    <li><a href="index-sports.html">sports</a></li>
-                                </ul>
+                               
                             </li>
-                            <li><a href="#">shop</a>
-                                <ul class="single-dropdown">
-                                   
-                                </ul>
+                            <li><a >shop</a>
+                            <ul class="single-dropdown">
+                                            <li><a href="{{URL('/#')}}">Fashion</a></li>
+                                            <li><a href="{{URL('/#')}}">Fashion style 2</a></li>
+                                            <li><a href="{{URL('/#')}}">fruits</a></li>
+                                            <li><a href="{{URL('/#')}}">book</a></li>
+                                            <li><a href="{{URL('/#')}}">electronics</a></li>
+                                            <li><a href="{{URL('/#')}}">electronics style 2</a></li>
+                                            <li><a href="{{URL('/#')}}">food & drink</a></li>
+                                            <li><a href="{{URL('/#')}}">furniture</a></li>
+                                            <li><a href="{{URL('/#')}}">handicraft</a></li>
+                                            <li><a target="_blank" href="{{URL('/#')}}">smart watch</a></li>
+                                            <li><a href="{{URL('/#')}}">sports</a></li>
+                                        </ul>
                             </li>
-                            <li><a href="#">Latest <span>New</span></a>
+                            <li><a >Latest <span>New</span></a>
                                 <div class="mega-menu-dropdown mega-dropdown-width">
                                     <div class="mega-dropdown-style mega-common4 mb-40">
-                                        <h4 class="mega-subtitle"> Clothing</h4>
-                                        <ul>
-                                            <li><a href="{{URL('/#')}}"> New Products</a></li>
-                                            <li><a href="{{URL('/#')}}"> Jackets</a></li>
-                                            <li><a href="{{URL('/#')}}"> Dress</a></li>
-                                            <li><a href="{{URL('/#')}}"> Winter Collection</a></li>
-                                            <li><a href="{{URL('/#')}}"> Ladis Jeans</a></li>
-                                            <li><a href="{{URL('/#')}}"> Multipacks</a></li>
-                                            <li><a href="{{URL('/#')}}"> Shorts</a></li>
-                                            <li><a href="{{URL('/#')}}"> Night wear</a></li>
-                                            <li><a href="{{URL('/#')}}"> Top Products</a></li>
+                                        <!-- <h4 class="mega-subtitle"> Clothing</h4> -->
+                                        <ul class="single-dropdown">
+                                            <li><a href="{{URL('/#')}}">Fashion</a></li>
+                                            <li><a href="{{URL('/#')}}">Fashion style 2</a></li>
+                                            <li><a href="{{URL('/#')}}">fruits</a></li>
+                                            <li><a href="{{URL('/#')}}">book</a></li>
+                                            <li><a href="{{URL('/#')}}">electronics</a></li>
+                                            <li><a href="{{URL('/#')}}">electronics style 2</a></li>
+                                            <li><a href="{{URL('/#')}}">food & drink</a></li>
+                                            <li><a href="{{URL('/#')}}">furniture</a></li>
+                                            <li><a href="{{URL('/#')}}">handicraft</a></li>
+                                            <li><a target="_blank" href="{{URL('/#')}}">smart watch</a></li>
+                                            <li><a href="{{URL('/#')}}">sports</a></li>
                                         </ul>
                                     </div>
-                                    <div class="mega-dropdown-style mega-common4 mb-40">
-                                        <h4 class="mega-subtitle"> New Products</h4>
-                                        <ul>
-                                            <li><a href="{{URL('/#')}}">View All</a></li>
-                                            <li><a href="{{URL('/#')}}">New Trand</a></li>
-                                            <li><a href="{{URL('/#')}}">Boots</a></li>
-                                            <li><a href="{{URL('/#')}}">Flat Shoes</a></li>
-                                            <li><a href="{{URL('/#')}}">Women Heels</a></li>
-                                            <li><a href="{{URL('/#')}}">Slippers</a></li>
-                                            <li><a href="{{URL('/#')}}">Socks & Tights</a></li>
-                                            <li><a href="{{URL('/#')}}">Trainers</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="mega-dropdown-style mega-common4 mb-40">
-                                        <h4 class="mega-subtitle">Tranding</h4>
-                                        <ul>
-                                            <li><a href="{{URL('/#')}}">Weeding</a></li>
-                                            <li><a href="{{URL('/#')}}">Winter</a></li>
-                                            <li><a href="{{URL('/#')}}">Holidays</a></li>
-                                            <li><a href="{{URL('/#')}}">Night Party</a></li>
-                                            <li><a href="{{URL('/#')}}">Outing Dress</a></li>
-                                            <li><a href="{{URL('/#')}}">Outing Dress</a></li>
-                                        </ul>
-                                    </div>
+                                   
                                     <div class="mega-dropdown-style mega-common4 discount-mega-common4 mb-40">
                                         <div class="mega-discount">
                                             <h5>Make A Discount</h5>
@@ -83,11 +60,7 @@
                                 </div>
                             </li>
                             
-                            <li><a href="{{URL('/#')}}">Kids</a>
-
-                            </li>
-                            <li><a href="{{URL('/#')}}">Discount</a></li>
-                            <li><a href="{{URL('/#')}}">Health <span>New</span></a></li>
+                            
                             <li><a href="{{URL('/contact')}}">contact</a></li>
                         </ul>
                     </nav>

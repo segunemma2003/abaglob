@@ -9621,3 +9621,6 @@ footer a:hover{
 .cop-y p{
     text-shadow:2px 2px 5px black;
 }
+a{
+    cursor: pointer!important;
+}

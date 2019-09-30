@@ -11,7 +11,10 @@
                             <nav>
                                 <ul>
                                     <li><a href="{{URL('/')}}">home</a>
-                                        <ul class="single-dropdown">
+                                       
+                                    </li>
+                                    <li><a>Shop</a>
+                                    <ul class="single-dropdown">
                                             <li><a href="{{URL('/#')}}">Fashion</a></li>
                                             <li><a href="{{URL('/#')}}">Fashion style 2</a></li>
                                             <li><a href="{{URL('/#')}}">fruits</a></li>
@@ -24,9 +27,6 @@
                                             <li><a target="_blank" href="{{URL('/#')}}">smart watch</a></li>
                                             <li><a href="{{URL('/#')}}">sports</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="{{URL('/#')}}">Shop</a>
-                                       
                                     </li>
                                    
                                     <!-- "{{URL('/login')}}" -->
@@ -100,19 +100,7 @@
                                 <nav id="mobile-menu-active">
                                     <ul class="menu-overflow">
                                         <li><a href="{{URL('/#')}}">HOME</a>
-                                            <ul>
-                                                <li><a href="{{URL('/#')}}">Fashion</a></li>
-                                                <li><a href="{{URL('/#')}}">Fashion style 2</a></li>
-                                                <li><a href="{{URL('/#')}}">Fruits</a></li>
-                                                <li><a href="{{URL('/#')}}">book</a></li>
-                                                <li><a href="{{URL('/#')}}">electronics</a></li>
-                                                <li><a href="{{URL('/#')}}">electronics style 2</a></li>
-                                                <li><a href="{{URL('/#')}}">food & drink</a></li>
-                                                <li><a href="{{URL('/#')}}">furniture</a></li>
-                                                <li><a href="{{URL('/#')}}">handicraft</a></li>
-                                                <li><a href="{{URL('/#')}}">smart watch</a></li>
-                                                <li><a href="{{URL('/#')}}">sports</a></li>
-                                            </ul>
+                                            
                                         </li>
                                        
                                        
@@ -142,12 +130,7 @@
                                 </button>
                             </form>
                         </div>
-                        <div class="furniture-wishlist">
-                            <ul>
-                                <li><a data-toggle="modal" data-target="#exampleCompare" href="#"><i class="ti-reload"></i> Compare</a></li>
-                                <li><a href="{{URL('/#')}}"><i class="ti-heart"></i> Wishlist</a></li>
-                            </ul>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

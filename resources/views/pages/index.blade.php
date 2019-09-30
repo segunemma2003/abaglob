@@ -11,7 +11,7 @@
                 <div class="main-menu menu-hover">
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a>
+                            <li><a href="{{URL('/')}}">Home</a>
                                
                             </li>
                             <li><a >shop</a>

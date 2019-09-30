@@ -1,7 +1,7 @@
 @extends('partials.master')
 @section('content')
 @include('partials.header')
-<div class="breadcrumb-area pt-205 pb-210" style="background-image: url(assets/img/bg/breadcrumb.jpg)">
+<div class="breadcrumb-area pt-205 pb-210" style="background-image: url({{('radiance/img/bg/breadcrumb.jpg')}})">
             <div class="container">
                 <div class="breadcrumb-content text-center">
                     <h2>checkout</h2>

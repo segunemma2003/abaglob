@@ -1,9 +1,11 @@
 <?php
 
-Route::get('/', function () {
+Route::get('/checkout', function () {
     return view('pages.checkout');
 });
-
+Route::get('/contact', function(){
+	return view('pages.contact');
+});
 // Admin Interface
 Route::group(['middleware' => 'admin',
 			  'prefix'     => 'admin',

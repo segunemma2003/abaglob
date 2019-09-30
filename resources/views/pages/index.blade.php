@@ -86,7 +86,7 @@
                         <ul class="cart-dropdown">
                             <li class="single-product-cart">
                                 <div class="cart-img">
-                                    <a href="{{URL('/#')}}"><img src="assets/img/cart/1.jpg" alt=""></a>
+                                    <a href="{{URL('/#')}}"><img src="{{asset('radiance/img/cart/1.jpg')}}" alt=""></a>
                                 </div>
                                 <div class="cart-title">
                                     <h5><a href="{{URL('/#')}}"> Bits Headphone</a></h5>
@@ -99,7 +99,7 @@
                             </li>
                             <li class="single-product-cart">
                                 <div class="cart-img">
-                                    <a href="{{URL('/#')}}"><img src="assets/img/cart/2.jpg" alt=""></a>
+                                    <a href="{{URL('/#')}}"><img src="{{asset('assets/img/cart/2.jpg')}}" alt=""></a>
                                 </div>
                                 <div class="cart-title">
                                     <h5><a href="{{URL('/#')}}"> Bits Headphone</a></h5>
@@ -143,22 +143,9 @@
                         <nav id="mobile-menu-active">
                             <ul class="menu-overflow">
                                 <li><a href="{{URL('/')}}">HOME</a>
-                                    <ul>
-                                        <li><a href="index.html">Fashion</a></li>
-                                        <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                                        <li><a href="index-fruits.html">Fruits</a></li>
-                                        <li><a href="index-book.html">book</a></li>
-                                        <li><a href="index-electronics.html">electronics</a></li>
-                                        <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                                        <li><a href="index-food.html">food & drink</a></li>
-                                        <li><a href="index-furniture.html">furniture</a></li>
-                                        <li><a href="index-handicraft.html">handicraft</a></li>
-                                        <li><a href="index-smart-watch.html">smart watch</a></li>
-                                        <li><a href="index-sports.html">sports</a></li>
-                                    </ul>
                                 </li>
                                 
-                                <li><a href="#">shop</a>
+                                <li><a>shop</a>
                                     <ul>
                                         <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
                                         <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
@@ -178,15 +165,7 @@
                                         <li><a href="product-details-9.html">fixed image style 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">BLOG</a>
-                                    <ul>
-                                        <li><a href="blog.html">blog 3 colunm</a></li>
-                                        <li><a href="blog-2-col.html">blog 2 colunm</a></li>
-                                        <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                        <li><a href="blog-details.html">blog details</a></li>
-                                        <li><a href="blog-details-sidebar.html">blog details 2</a></li>
-                                    </ul>
-                                </li>
+                               
                                 <li><a href="{{URL('/contact')}}"> Contact  </a></li>
                             </ul>
                         </nav>
@@ -194,7 +173,7 @@
                 </div>
                 <div class="slider-area ">
                     <div class="slider-active owl-carousel">
-                        <div class="single-slider single-slider-hm1 bg-img height-100vh" style="background-image: url{{asset('radiance/img/SliderGraphics/Abaglobal_slider1.png')}}; background-size: cover; ">
+                        <div class="single-slider single-slider-hm1 bg-img height-100vh" style="background-image: url({{asset('radiance/img/SliderGraphics/Abaglobal_slider1.png')}}); background-size: cover; backround-repeat:no-repeat;">
                             <div class="slider-content slider-animation slider-content-style-1 slider-animated-1">
                                 <h1 class="animated">Fashion</h1>
                                 <p class="animated">Create you own style for better looks. </p>
@@ -211,7 +190,7 @@
                                 </div>
                             </div> -->
                         </div>
-                        <div class="single-slider single-slider-hm1 bg-img height-100vh" style="background-image: url(assets/img/slider/15.jpg)">
+                        <div class="single-slider single-slider-hm1 bg-img height-100vh" style="url({{asset('radiance/img/SliderGraphics/Abaglobal_slider3.png')}}); background-size: cover; backround-repeat:no-repeat;">
                             <div class="slider-content slider-animation slider-content-style-1 slider-animated-2">
                                 <h1 class="animated">Fashion</h1>
                                 <p class="animated">Create you own style for better looks. </p>
@@ -227,7 +206,7 @@
                                     <img src="assets/img/slider/8.png" alt="">
                                 </div>
                             </div> -->
-                        </div>
+                        <!-- </div>y -->
                     </div>
                 </div>
             </div>
@@ -239,7 +218,7 @@
         <div class="row no-gutters">
             <div class="col-md-4">
                 <div class="single-banner">
-                    <a href="#"><img src="assets/img/banner/1.jpg" alt=""></a>
+            <a href="#"><img src="{{asset('radiance/img/banner/1.jpg')}}" alt=""></a>
                     <div class="banner-content banner-content-style1">
                         <h2>BLUE <br> <span>Glasses</span></h2>
                         <p>Lorem Ipsum is simply dummy text of the printing.</p>
@@ -248,7 +227,7 @@
             </div>
             <div class="col-md-4">
                 <div class="single-banner">
-                    <a href="#"><img src="assets/img/banner/2.jpg" alt=""></a>
+            <a href="#"><img src="{{asset('radiance/img/banner/2.jpg')}}" alt=""></a>
                     <div class="banner-content banner-content-style2">
                         <span>-  Up to  -</span>
                         <h2>30% off</h2>
@@ -258,7 +237,7 @@
             </div>
             <div class="col-md-4">
                 <div class="single-banner">
-                    <a href="#"><img src="assets/img/banner/3.jpg" alt=""></a>
+            <a href="#"><img src="{{asset('radiance/img/banner/3.jpg')}}" alt=""></a>
                     <div class="banner-content banner-content-style3">
                         <h2>Trand <br>2018.</h2>
                     </div>
@@ -279,7 +258,7 @@
                         <div class="product-wrapper">
                             <div class="product-img">
                                 <a href="#">
-                                    <img src="assets/img/product/fashion-colorful/1.jpg" alt="">
+                                    <img src="{{asset('radiance/img/product/fashion-colorful/1.jpg')}}" alt="">
                                 </a>
                                 <span>hot</span>
                                 <div class="product-action">
@@ -302,7 +281,7 @@
                         <div class="product-wrapper">
                             <div class="product-img">
                                 <a href="#">
-                                    <img src="assets/img/product/fashion-colorful/2.jpg" alt="">
+                                    <img src="{{asset('radiance/img/product/fashion-colorful/2.jpg')}}" alt="">
                                 </a>
                                 <div class="product-action">
                                     <a class="animate-left" title="Wishlist" href="#">
@@ -324,7 +303,7 @@
                         <div class="product-wrapper">
                             <div class="product-img">
                                 <a href="#">
-                                    <img src="assets/img/product/fashion-colorful/3.jpg" alt="">
+                                    <img src="{{asset('radiance/img/product/fashion-colorful/3.jpg')}}" alt="">
                                 </a>
                                 <span>hot</span>
                                 <div class="product-action">
@@ -347,7 +326,7 @@
                         <div class="product-wrapper">
                             <div class="product-img">
                                 <a href="#">
-                                    <img src="assets/img/product/fashion-colorful/4.jpg" alt="">
+                                    <img src="{{asset('radiance/img/product/fashion-colorful/4.jpg')}}" alt="">
                                 </a>
                                 <div class="product-action">
                                     <a class="animate-left" title="Wishlist" href="#">
@@ -369,7 +348,7 @@
                         <div class="product-wrapper">
                             <div class="product-img">
                                 <a href="#">
-                                    <img src="assets/img/product/fashion-colorful/5.jpg" alt="">
+                                    <img src="{{asset('radiance/img/product/fashion-colorful/5.jpg')}}" alt="">
                                 </a>
                                 <span>hot</span>
                                 <div class="product-action">
@@ -392,7 +371,7 @@
                         <div class="product-wrapper">
                             <div class="product-img">
                                 <a href="#">
-                                    <img src="assets/img/product/fashion-colorful/1.jpg" alt="">
+                                    <img src="{{asset('radiance/img/product/fashion-colorful/1.jpg')}}" alt="">
                                 </a>
                                 <div class="product-action">
                                     <a class="animate-left" title="Wishlist" href="#">
@@ -414,7 +393,7 @@
                         <div class="product-wrapper">
                             <div class="product-img">
                                 <a href="#">
-                                    <img src="assets/img/product/fashion-colorful/2.jpg" alt="">
+                                    <img src="{{asset('radiance/img/product/fashion-colorful/2.jpg')}}" alt="">
                                 </a>
                                 <span>hot</span>
                                 <div class="product-action">
@@ -446,7 +425,7 @@
             <div class="row no-gutters">
                 <div class="col-lg-6 col-xl-6">
                     <div class="banner-wrapper mrgn-r-4">
-                        <a href="#"><img src="assets/img/banner/4.jpg" alt=""></a>
+                        <a href="#"><img src="{{asset('radiance/img/banner/4.jpg')}}" alt=""></a>
                         <div class="banner-wrapper-content">
                             <h3>20% <br><span>off</span></h3>
                             <h2><span>Trending</span> <br>Fashion <br>2018...</h2>
@@ -457,7 +436,7 @@
                     <div class="row no-gutters">
                         <div class="col-lg-12">
                             <div class="banner-wrapper mrgn-b-4">
-                                <a href="#"><img src="assets/img/banner/5.jpg" alt=""></a>
+                                <a href="#"><img src="{{asset('radiance/img/banner/5.jpg')}}" alt=""></a>
                                 <div class="banner-wrapper-content2">
                                     <h3>Winter <br>Collection.</h3>
                                     <a href="#">shop now</a>
@@ -468,7 +447,7 @@
                             <div class="row no-gutters">
                                 <div class="col-lg-6">
                                     <div class="banner-wrapper mrgn-r-4">
-                                        <a href="#"><img src="assets/img/banner/6.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('radiance/img/banner/6.jpg')}}" alt=""></a>
                                         <div class="banner-wrapper-content3">
                                             <h3><span>new</span> <br>fashion</h3>
                                         </div>
@@ -476,7 +455,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="banner-wrapper">
-                                        <a href="#"><img src="assets/img/banner/7.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('radiance/img/banner/7.jpg')}}" alt=""></a>
                                         <div class="banner-wrapper-content4">
                                             <h4>25 December.</h4>
                                             <h2>Gift Shop</h2>
@@ -523,7 +502,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/1.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/1.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -548,7 +527,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/2.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/2.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -572,7 +551,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/3.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/3.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -597,7 +576,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/4.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/4.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -621,7 +600,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/5.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/5.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -646,7 +625,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/5.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/5.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -670,7 +649,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/4.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/4.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -695,7 +674,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/3.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/3.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -719,7 +698,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/2.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/2.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -744,7 +723,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/1.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/1.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -772,7 +751,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/5.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/5.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -797,7 +776,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/4.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/4.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -821,7 +800,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/3.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/3.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -846,7 +825,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/2.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/2.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -870,7 +849,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/1.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/1.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -895,7 +874,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/1.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/1.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -919,7 +898,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/2.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/2.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -944,7 +923,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/3.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/3.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -968,7 +947,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/4.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/4.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -993,7 +972,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/5.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/5.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -1021,7 +1000,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/3.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/3.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">
@@ -1046,7 +1025,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/2.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/2.jpg')}}" alt="">
                                             </a>
                                             <div class="product-action">
                                                 <a class="animate-left" title="Wishlist" href="#">
@@ -1070,7 +1049,7 @@
                                     <div class="product-wrapper">
                                         <div class="product-img">
                                             <a href="#">
-                                                <img src="assets/img/product/fashion-colorful/1.jpg" alt="">
+                                                <img src="{{asset('radiance/img/product/fashion-colorful/1.jpg')}}" alt="">
                                             </a>
                                             <span>hot</span>
                                             <div class="product-action">

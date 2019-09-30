@@ -29,11 +29,8 @@
                                             <li><a href="{{URL('/#')}}">sports</a></li>
                                         </ul>
                             </li>
-                            <li><a >Latest <span>New</span></a>
-                                <div class="mega-menu-dropdown mega-dropdown-width">
-                                    <div class="mega-dropdown-style mega-common4 mb-40">
-                                        <!-- <h4 class="mega-subtitle"> Clothing</h4> -->
-                                        <ul class="single-dropdown">
+                            <li><a >Latest</a>
+                            <ul class="single-dropdown">
                                             <li><a href="{{URL('/#')}}">Fashion</a></li>
                                             <li><a href="{{URL('/#')}}">Fashion style 2</a></li>
                                             <li><a href="{{URL('/#')}}">fruits</a></li>
@@ -46,18 +43,6 @@
                                             <li><a target="_blank" href="{{URL('/#')}}">smart watch</a></li>
                                             <li><a href="{{URL('/#')}}">sports</a></li>
                                         </ul>
-                                    </div>
-                                   
-                                    <div class="mega-dropdown-style mega-common4 discount-mega-common4 mb-40">
-                                        <div class="mega-discount">
-                                            <h5>Make A Discount</h5>
-                                            <h2>UP TO 30%</h2>
-                                        </div>
-                                    </div>
-                                    <div class="mega-banner-img-2">
-                                        <a href="single-product.html"><img src="assets/img/bg/3.png" alt=""></a>
-                                    </div>
-                                </div>
                             </li>
                             
                             
@@ -209,14 +194,14 @@
                 </div>
                 <div class="slider-area ">
                     <div class="slider-active owl-carousel">
-                        <div class="single-slider single-slider-hm1 bg-img height-100vh" style="background-image: url(assets/img/slider/15.jpg)">
+                        <div class="single-slider single-slider-hm1 bg-img height-100vh" style="background-image: url{{asset('radiance/img/SliderGraphics/Abaglobal_slider1.png')}}; background-size: cover; ">
                             <div class="slider-content slider-animation slider-content-style-1 slider-animated-1">
                                 <h1 class="animated">Fashion</h1>
                                 <p class="animated">Create you own style for better looks. </p>
                             </div>
-                            <div class="position-slider-img">
+                            <!-- <div class="position-slider-img">
                                 <div class="slider-img-1">
-                                    <img src="assets/img/slider/9.png" alt="">
+                                    <img src="{{asset('radiance/img/SliderGraphics/Abaglobal_slider1.png')}}" alt="">
                                 </div>
                                 <div class="slider-img-2">
                                     <img class="tilter" src="assets/img/slider/7.png" alt="">
@@ -224,14 +209,14 @@
                                 <div class="slider-img-3">
                                     <img src="assets/img/slider/8.png" alt="">
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="single-slider single-slider-hm1 bg-img height-100vh" style="background-image: url(assets/img/slider/15.jpg)">
                             <div class="slider-content slider-animation slider-content-style-1 slider-animated-2">
                                 <h1 class="animated">Fashion</h1>
                                 <p class="animated">Create you own style for better looks. </p>
                             </div>
-                            <div class="position-slider-img">
+                            <!-- <div class="position-slider-img">
                                 <div class="slider-img-1">
                                     <img src="assets/img/slider/9.png" alt="">
                                 </div>
@@ -241,7 +226,7 @@
                                 <div class="slider-img-3">
                                     <img src="assets/img/slider/8.png" alt="">
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

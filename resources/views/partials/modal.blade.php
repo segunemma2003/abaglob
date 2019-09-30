@@ -12,11 +12,11 @@
                                         <tr>
                                             <th></th>
                                             <th>
-                                                <a href="#">Remove <span>x</span></a>
+                                                <a href="{{URL('/#')}}">Remove <span>x</span></a>
                                                 <img src="{{asset('radiance/img/cart/4.jpg')}}" alt="">
                                                 <p>Blush Sequin Top </p>
                                                 <span>$75.99</span>
-                                                <a class="compare-btn" href="#">Add to cart</a>
+                                                <a class="compare-btn" href="{{URL('/#')}}">Add to cart</a>
                                             </th>
                                         </tr>
                                     </thead>

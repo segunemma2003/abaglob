@@ -6,7 +6,7 @@
                 <div class="breadcrumb-content text-center">
                     <h2>contact us</h2>
                     <ul>
-                        <li><a href="#">home</a></li>
+                        <li><a href="{{URL('/')}}">home</a></li>
                         <li> contact us</li>
                     </ul>
                 </div>

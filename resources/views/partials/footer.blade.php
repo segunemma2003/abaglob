@@ -10,7 +10,7 @@
                                         <li><a href="{{URL('/cart')}}">Cart</a></li>
                                         <li><a href="{{URL('/#')}}">My Account</a></li>
                                         <li><a href="{{URL('/login')}}">Login</a></li>
-                                        <li><a href="register.html">Register</a></li>
+                                        <li><a href="{{URL('/register')}}">Register</a></li>
                                         <li><a href="{{URL('/#')}}">Support</a></li>
                                         <li><a href="{{URL('/#')}}">Track</a></li>
                                     </ul>

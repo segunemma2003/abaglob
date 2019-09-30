@@ -3,14 +3,14 @@
                 <div class="container-fluid">
                     <div class="header-bottom-wrapper">
                         <div class="logo-2 furniture-logo ptb-30 logo_header my-auto ">
-                            <a href="index.html">
+                            <a href="{{URL('/')}}">
                                 <img src="{{asset('radiance/img/logo/logo.png')}}" class='w-100' alt="">
                             </a>
                         </div>
                         <div class="menu-style-2 furniture-menu menu-hover">
                             <nav>
                                 <ul>
-                                    <li><a href="{{URL('/index')}}">home</a>
+                                    <li><a href="{{URL('/')}}">home</a>
                                         <ul class="single-dropdown">
                                             <li><a href="{{URL('/#')}}">Fashion</a></li>
                                             <li><a href="{{URL('/#')}}">Fashion style 2</a></li>

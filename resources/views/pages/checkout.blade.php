@@ -6,7 +6,7 @@
                 <div class="breadcrumb-content text-center">
                     <h2>checkout</h2>
                     <ul>
-                        <li><a href="#">home</a></li>
+                        <li><a href="{{URL('/')}}">home</a></li>
                         <li> checkout </li>
                     </ul>
                 </div>
@@ -40,7 +40,7 @@
                                                 </label>
                                             </p>
                                             <p class="lost-password">
-                                                <a href="#">Lost your password?</a>
+                                                <a href="{{URL('/#')}}">Lost your password?</a>
                                             </p>
                                         </form>
                                     </div>

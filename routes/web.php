@@ -1,21 +1,28 @@
 <?php
 
-Route::get('/index', function () {
-    return view('pages.index');
-});
-Route::get('/login', function () {
+Route::get('/login', function() {
     return view('pages.login');
 });
-Route::get('/product-details', function () {
+Route::get('/product-details', function() {
     return view('pages.product-details');
 });
-Route::get('/register', function () {
-    return view('pages.register');
-Route::get('/checkout', function () {
+Route::get('/register', function() {
+	return view('pages.register');
+});
+Route::get('/checkout', function() {
     return view('pages.checkout');
 });
 Route::get('/contact', function(){
 	return view('pages.contact');
+});
+Route::get('/', function() {
+    return view('pages.index');
+});
+Route::get('/cart', function() {
+    return view('pages.cart');
+});
+Route::get('/about', function () {
+    return view('pages.about-us');
 });
 // Admin Interface
 Route::group(['middleware' => 'admin',

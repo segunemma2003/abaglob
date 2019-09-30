@@ -26,7 +26,7 @@
                                         <input type="password" name="user-password" placeholder="Password">
                                         <input name="user-email" placeholder="Email" type="email">
                                         <div class="button-box">
-                                            <button type="submit" class="default-btn floatright">Register</button>
+                                            <button type="submit" class="default-btn floatright abgbc abghov" style='color:white;'>Register</button>
                                         </div>
                                     </form>
                                 </div>

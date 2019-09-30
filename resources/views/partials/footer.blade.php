@@ -7,12 +7,12 @@
                                 <h3 class="footer-widget-title">Custom Service</h3>
                                 <div class="footer-widget-content">
                                     <ul>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="register.html">My Account</a></li>
-                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="{{URL('/cart')}}">Cart</a></li>
+                                        <li><a href="{{URL('/#')}}">My Account</a></li>
+                                        <li><a href="{{URL('/login')}}">Login</a></li>
                                         <li><a href="register.html">Register</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Track</a></li>
+                                        <li><a href="{{URL('/#')}}">Support</a></li>
+                                        <li><a href="{{URL('/#')}}">Track</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -22,12 +22,12 @@
                                 <h3 class="footer-widget-title">Categories</h3>
                                 <div class="footer-widget-content">
                                     <ul>
-                                        <li><a href="shop.html">Dress</a></li>
-                                        <li><a href="shop.html">Shoes</a></li>
-                                        <li><a href="shop.html">Shirt</a></li>
-                                        <li><a href="shop.html">Baby Product</a></li>
-                                        <li><a href="shop.html">Mans Product</a></li>
-                                        <li><a href="shop.html">Leather</a></li>
+                                        <li><a href="{{URL('/#')}}">Dress</a></li>
+                                        <li><a href="{{URL('/#')}}">Shoes</a></li>
+                                        <li><a href="{{URL('/#')}}">Shirt</a></li>
+                                        <li><a href="{{URL('/#')}}">Baby Product</a></li>
+                                        <li><a href="{{URL('/#')}}">Mans Product</a></li>
+                                        <li><a href="{{URL('/#')}}">Leather</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -63,9 +63,9 @@
                                 <h3 class="footer-widget-title">Make money with Abaglobal</h3>
                                 <div class="footer-widget-content">
                                     <ul>
-                                        <li><a href="shop.html">Sell On Abaglobal</a></li>
-                                        <li><a href="shop.html">Become An Affiliate Partner</a></li>
-                                        <li><a href="shop.html">Become A Logistics/Delivery Agents</a></li>
+                                        <li><a href="{{URL('/sell')}}">Sell On Abaglobal</a></li>
+                                        <li><a href="{{URL('/sell')}}">Become An Affiliate Partner</a></li>
+                                        <li><a href="{{URL('/sell')}}">Become A Logistics/Delivery Agents</a></li>
                             
                                     </ul>
                                 </div>

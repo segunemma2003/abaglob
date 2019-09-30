@@ -1,9 +1,14 @@
 <?php
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
 });
-
+Route::get('/cart', function () {
+    return view('pages.cart');
+});
+Route::get('/about', function () {
+    return view('pages.about-us');
+});
 // Admin Interface
 Route::group(['middleware' => 'admin',
 			  'prefix'     => 'admin',

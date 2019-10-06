@@ -1,33 +1,38 @@
 <?php
 
-Route::get('/login', function() {
-    return view('pages.login');
+
+Route::get('/login', function () {
+	return view('pages.login');
 });
-Route::get('/product-details', function() {
-    return view('pages.product-details');
+Route::get('/product-details', function () {
+	return view('pages.product-details');
 });
-Route::get('/register', function() {
+Route::get('/product', function () {
+	return view('pages.product');
+});
+Route::get('/register', function () {
 	return view('pages.register');
 });
-Route::get('/checkout', function() {
-    return view('pages.checkout');
+Route::get('/checkout', function () {
+	return view('pages.checkout');
 });
-Route::get('/contact', function(){
+Route::get('/contact', function () {
 	return view('pages.contact');
 });
-Route::get('/', function() {
-    return view('pages.index');
+Route::get('/', function () {
+	return view('pages.index');
 });
-Route::get('/cart', function() {
-    return view('pages.cart');
+Route::get('/cart', function () {
+	return view('pages.cart');
 });
 Route::get('/about', function () {
-    return view('pages.about-us');
+	return view('pages.about-us');
 });
 // Admin Interface
-Route::group(['middleware' => 'admin',
-			  'prefix'     => 'admin',
-              'namespace'  => 'Admin'
+Route::group([
+	'middleware' => 'admin',
+	'prefix'     => 'admin',
+	'namespace'  => 'Admin'
 ], function () {
 
 	CRUD::resource('categories', 'CategoryCrudController');
@@ -54,10 +59,11 @@ Route::group(['middleware' => 'admin',
 
 
 // Ajax
-Route::group(['middleware' => 'admin',
-			  'prefix' => 'ajax',
-			  'namespace' => 'Admin'
-], function() {
+Route::group([
+	'middleware' => 'admin',
+	'prefix' => 'ajax',
+	'namespace' => 'Admin'
+], function () {
 	// Get attributes by set id
 	Route::post('attribute-sets/list-attributes', ['as' => 'getAttrBySetId', 'uses' => 'AttributeSetCrudController@ajaxGetAttributesBySetId']);
 

@@ -1750,7 +1750,7 @@
     <!-- all products area end -->
     <!-- brand logo area start -->
     <div class="brand-logo-area pl-100 pr-100">
-        <div class="ptb-135 gray-bg">
+        <div class="ptb-135 pb-5 pt-2 gray-bg">
             <div class="d-flex align-items-center justify-content-center">
             <div class='text-center'>
                 <img src="{{asset('radiance/img/abaglobal-icon.png')}}" style='width:85%;' alt="">
@@ -1781,7 +1781,7 @@
     </div>
     <!-- brand logo area end -->
     <!-- banner3 area start -->
-    <div class="banner-area3 pt-120 pb-115">
+    {{-- <div class="banner-area3 pt-120 pb-115">
         <div class="pl-100 pr-100">
             <div class="container">
                 <div class="row no-gutters">
@@ -1834,16 +1834,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- banner3 area end -->
     <!-- insta feed start -->
-    <div class="insta-feed ptb-120  gray-bg">
+    <div class="insta-feed ptb-120 py-2 gray-bg">
         <div class="pl-185 pr-185">
             <div class="section-title-2 text-center mb-50">
                 <h2>Insta Feed</h2>
                 <h4>Follow us on intagram. <span>@Abaglobalng</span></h4>
             </div>
-            <div class="instafeed-wrapper">
+            {{-- <div class="instafeed-wrapper">
                 <div class="instafeed-active owl-carousel">
                     <div class="instafeed-img">
                         <img src="{{asset('radiance/img/instra/1.jpg')}}" alt="">
@@ -1864,7 +1864,7 @@
                         <img src="{{asset('radiance/img/instra/2.jpg')}}" alt="">
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     <!-- insta feed end -->

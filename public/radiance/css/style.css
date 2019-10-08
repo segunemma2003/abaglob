@@ -846,7 +846,7 @@
     width: 45px;
 }
 .product-action a:hover {
-    background-color: #050035;
+    background-color: #1d9c9b ;
     color: #fff;
 }
 .product-img > span {
@@ -6403,6 +6403,7 @@ a.icon-cart-furniture.food-cart span {
     top: 460px;
     z-index: 999;
 }
+
 .abgc{
    color: #1d9c9b!important;  
 }
@@ -8922,6 +8923,9 @@ a.bundle-btn {
     margin: 25px 0 0;
     position: relative;
 }
+.section-title{
+    color: #1d9c9b!important;
+}
 .section-title-furits > h2::before {
     background-color: #85bd02;
     bottom: -13px;
@@ -9624,6 +9628,53 @@ footer a:hover{
 a{
     cursor: pointer!important;
 }
-.white{
-    color:white!important;
+.login-r a:hover{
+    color:#1d9c9b!important;
+}
+.search-bt{
+    display:none!important;
+}
+
+
+
+
+@media (min-width:992px){
+.single-slider{
+    height:500px!important;
+}
+.slider-area{
+    margin-top: 120px; 
+}
+.header-left-sidebar{
+    height: 500px!important;
+    margin-top: -130px!important;
+}
+.search-bt{
+    background-color: #1d9c9b!important;
+    color: white!important;
+    font-size: 12px!important;
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+    padding-left:16px!important;
+    padding-right:16px!important;
+    border-radius: 3px!important;
+    margin-left: 5%!important;
+    display: inline-block!important;
+}
+.search-bt:hover{
+    background-color:#d7df23!important;
+    color: black!important;
+}
+.search-l{
+    width:300px!important;
+}
+
+.form-s{
+    min-width: 450px!important
+}
+
+.main-bt{
+    display: none!important;
+}
+
 }

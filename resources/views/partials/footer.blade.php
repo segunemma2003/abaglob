@@ -2,7 +2,7 @@
             <div class="footer-top-area bg-img pt-105 pb-65 abgbc footer-lay"  >
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-4 col-md-3">
+                        <div class="col-xl-3 col-md-3">
                             <div class="footer-widget mb-40">
                                 <h3 class="footer-widget-title">Custom Service</h3>
                                 <div class="footer-widget-content">
@@ -17,17 +17,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-3">
+                        <div class="col-xl-5 col-md-3">
                             <div class="footer-widget mb-40">
-                                <h3 class="footer-widget-title">Categories</h3>
+                                <h3 class="footer-widget-title">Make money with Abaglobal</h3>
                                 <div class="footer-widget-content">
                                     <ul>
-                                        <li><a href="{{URL('/#')}}">Dress</a></li>
-                                        <li><a href="{{URL('/#')}}">Shoes</a></li>
-                                        <li><a href="{{URL('/#')}}">Shirt</a></li>
-                                        <li><a href="{{URL('/#')}}">Baby Product</a></li>
-                                        <li><a href="{{URL('/#')}}">Mans Product</a></li>
-                                        <li><a href="{{URL('/#')}}">Leather</a></li>
+                                        <li><a href="{{URL('/sell')}}">Sell On Abaglobal</a></li>
+                                        <li><a href="{{URL('/sell')}}">Become An Affiliate Partner</a></li>
+                                        <li><a href="{{URL('/sell')}}">Become A Logistics/Delivery Agents</a></li>
+                            
                                     </ul>
                                 </div>
                             </div>
@@ -58,19 +56,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-12 col-md-12">
-                            <div class="footer-widget mb-40">
-                                <h3 class="footer-widget-title">Make money with Abaglobal</h3>
-                                <div class="footer-widget-content">
-                                    <ul>
-                                        <li><a href="{{URL('/sell')}}">Sell On Abaglobal</a></li>
-                                        <li><a href="{{URL('/sell')}}">Become An Affiliate Partner</a></li>
-                                        <li><a href="{{URL('/sell')}}">Become A Logistics/Delivery Agents</a></li>
-                            
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
